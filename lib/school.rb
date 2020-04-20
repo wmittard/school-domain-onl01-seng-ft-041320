@@ -1,6 +1,5 @@
 class School
-  SCHOOL = []
-  def initialize(name)
+  def initialize(school)
     @school = school
   end
 end
