@@ -1,5 +1,5 @@
 class School
   def initialize(school)
-    @school = school.new ("Test Center")
+    @school = school.new ("Test School")
   end
 end
