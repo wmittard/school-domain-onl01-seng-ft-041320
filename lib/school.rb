@@ -11,5 +11,6 @@ class School
     @add_student = name 
     @grade = grade
     if @roster.include?(grade) == false 
-      @grade = {}
+      @roster = {}
+    end
 end
