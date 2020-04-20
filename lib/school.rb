@@ -1,5 +1,7 @@
 class School
-  def initialize(school)
-    @school = school.new ("Test School")
+ 
+  def initialize(school_name)
+    @school = school_name 
+    @roster = []
   end
 end
